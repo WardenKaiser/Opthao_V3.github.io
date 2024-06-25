@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <link rel="icon" href="image.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon">
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-top: 20px;
+            padding: 20px 0;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        section p {
+            color: #666;
+        }
+
+        .booking-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .booking-link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nouveau patient</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="cabinet.html">Le cabinet</a></li>
+                <li><a href="simple_rendez_vous_controle_cabinet.html">Simple rendez-vous de contrôle</a></li>
+                <li><a href="patient_diabetique_cabinet.html">Patient diabétique</a></li>
+                <li><a href="patient_porteur_lentilles_cabinet.html">Patient porteur de lentilles</a></li>
+                <li><a href="urgences_cabinet.html">Urgences</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="new-appointment">
+        <div class="container">
+            <h2>Nouveau rendez-vous</h2>
+            <p>Pour un patient qui n'a jamais consulté au cabinet auparavant. Pour assurer une prise en charge efficace et personnalisée, nous vous invitons à fournir les informations suivantes : le nom, le prénom, la date de naissance et le numéro de téléphone du patient. Ces détails nous permettent de créer un dossier patient complet et de vous contacter facilement pour toute communication ultérieure.</p>
+            <p>En plus des informations personnelles, veuillez nous indiquer le motif du rendez-vous. Par exemple, s'il s'agit d'une consultation pour un problème de santé spécifique, une demande de prescription médicale, ou simplement une visite de bienvenue pour établir une relation avec notre équipe médicale. Cette information nous aide à organiser les rendez-vous et à allouer le temps nécessaire pour chaque consultation, garantissant ainsi une expérience fluide et efficace pour nos patients.</p>
+            <p>Pour prendre rendez-vous, vous avez deux options :</p>
+            <ul>
+                <li>Appeler le numéro de téléphone suivant : <a href="tel:+33139139191">01 39 13 91 91</a></li>
+                <li>Ou bien, cliquer sur le lien ci-dessous pour prendre rendez-vous en ligne :</li>
+            </ul>
+            <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank" class="booking-link">Prendre rendez-vous en ligne</a>
+        </div>
+    </section>
+</body>
+</html>

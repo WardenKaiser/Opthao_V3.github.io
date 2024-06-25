@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <link rel="icon" href="image.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon">
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        #equipe, #orthoptistes, #secretaires {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .doctor, .staff-member {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .doctor:hover, .staff-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .doctor h3, .staff-member h3 {
+            color: #003366;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .doctor p, .staff-member p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .doctor a, .staff-member a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .doctor a:hover, .staff-member a:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        .text-content {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> L'équipe médicale</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="equipe">
+            <h2>Nos médecins</h2>
+            <div class="doctor">
+                <div class="text-content">
+                    <h3>Dr. Olivier Megret</h3>
+                    <p>Expertises et actes : Chirurgie de la cataracte, DMLA, Diabète, Glaucome, Injection, Lentilles de contact, OCT, Ophtalmologie médico-chirurgicale</p>
+                    <p>Le docteur Olivier Mégret pratique essentiellement une activité d'explorations ophtalmologiques, de lasers et de chirurgie, dans le cadre du secteur 1 de la Sécurité sociale; également, il reçoit les jeunes enfants.</p>
+                    <p>Si vous êtes adressé, ou si votre état nécessite des examens spécialisés : tomographie en cohérence optique (OCT), rétinographies, etc. ou un traitement par laser, injections intra-oculaires ou une opération chirurgicale, il convient donc de prendre rendez-vous au cabinet d'ophtalmologie 60 rue Hoche (les instruments d'exploration et les lasers qui étaient précédemment installés à la clinique de Bezons ont été déplacés à Houilles). Si vous êtes adressé en urgence ou semi urgence par un médecin, et si vous ne pouvez pas avoir un rendez-vous rapide par internet, contactez notre secrétariat par téléphone.</p>
+                    <p>Au cabinet vous serez accueillis par une de nos secrétaires, mesdames Genève ou Saudemont, puis par une collaboratrice ou un collaborateur non médecin qui effectuera la première partie des examens. Ces collaborateurs sont diplômés et expérimentés. Vous serez ensuite reçu par le docteur Mégret.</p>
+                    <p>Les examens effectués permettront de poser les indications thérapeutiques. Le docteur Mégret opère à la Clinique du plateau à Bezons.</p>
+                    <p>Par ailleurs le docteur Mégret reçoit les jeunes enfants (de moins de 5 ans).</p>
+                    <p>Les orthoptistes du cabinet sont compétents pour le renouvellement des lunettes sous certaines conditions. Le docteur Mégret prendra connaissance de votre dossier et validera ensuite vos ordonnances ou recommandations afférentes. Visite de 28 € (motif consultation : RNO).</p>
+                    <h4>Prendre rendez-vous avec le Dr. Megret</h4>
+                    <p>Pour prendre rendez-vous avec le Dr. Olivier Megret, veuillez cliquer sur le lien suivant :</p>
+                    <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank">Prendre rendez-vous</a>
+                </div>
+                <img src="2.png" alt="Dr. Olivier Megret" class="profile-pic">
+            </div>
+            <div class="doctor">
+                <div class="text-content">
+                    <h3>Dr. Ben Lassoued</h3>
+                    <p>Expertises et actes : Chirurgie de la cataracte, Chirurgie de la rétine, Chirurgie des voies lacrymales, Chirurgie ophtalmologique, DMLA (Dégénérescence Maculaire Liée à l'Âge), Diabète, Glaucome, Injection intravitréenne, Laser ophtalmologique, OCT, Vitrectomie</p>
+                    <p>L'ophtalmologue, ou ophtalmologiste, traite l'ensemble des maladies de l’œil. Il prend notamment en charge les troubles de la réfraction (presbytie, myopie, hypermétropie astigmatisme), le strabisme, les troubles de la vision des couleurs, les glaucomes ou encore les pathologies de la rétine ou de la paupière.</p>
+                    <h4>Prendre rendez-vous avec le Dr. Ben Lassoued</h4>
+                    <p>Pour prendre rendez-vous avec le Dr. Ben Lassoued, veuillez cliquer sur le lien suivant :</p>
+                    <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank">Prendre rendez-vous</a>
+                    <p>Au sein d'Ophtao le Docteur Ben Lassoued vous reçoit habituellement le mardi matin et opère <a href="https://www.google.com/maps/dir/60+Rue+Hoche,+Houilles/21+Rue+de+Sartrouville,+95870+Bezons/@48.9288295,2.1770471,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47e663f16541f7af:0xccff01f48236319d!2m2!1d2.184955!2d48.9251973!1m5!1m1!1s0x47e66404ba09c175:0x5e25e212146766d1!2m2!1d2.2041897!2d48.9337577!3e3?entry=ttu" target="_blank"> la clinique du Plateau de Bezons</a> l'après midi.</p>
+                </div>
+                <img src="1517058219067.png" alt="Dr. Ben Lassoued" class="profile-pic">
+            </div>
+            <div class="doctor">
+                <div class="text-content">
+                    <h3>Dr. Jean-Charles Hoegy</h3>
+                    <p>Expertises et actes : Bilan de la vue, Cataracte, Chalazion, Chirurgie ophtalmologique, Conjonctivite, DMLA, Daltonisme, Glaucome, Lentilles de contact, OCT, Orgelet, Sécheresse oculaire</p>
+                    <p>L'ophtalmologue, ou ophtalmologiste, traite l'ensemble des maladies de l’œil. Il prend notamment en charge les troubles de la réfraction (presbytie, myopie, hypermétropie astigmatisme), le strabisme, les troubles de la vision des couleurs, les glaucomes ou encore les pathologies de la rétine ou de la paupière.</p>
+                    <h4>Prendre rendez-vous avec le Dr. Hoegy</h4>
+                    <p>Pour prendre rendez-vous avec le Dr. Jean-Charles Hoegy, veuillez cliquer sur le lien suivant :</p>
+                    <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank">Prendre rendez-vous</a>
+                    <p>Au sein d'Ophtao le Docteur Hoegy vous reçoit le lundi matin de 9h30 à 12h30.</p>
+                </div>
+                <img src="Design_sans_titre.png" alt="Dr. Jean-Charles Hoegy" class="profile-pic">
+            </div>
+            <div class="doctor">
+                <div class="text-content">
+                    <h3>Dr. Nawel Kerdali</h3>
+                    <p>Expertises et actes : Glaucome, DMLA, Diabète, Pathologies rétiniennes, Lentilles de contact</p>
+                    <p>Le docteur Nawel Kerdali traite toutes les pathologies médicales en ophtalmologie, y compris le glaucome, la DMLA, le diabète, les pathologies rétiniennes et les lentilles de contact.</p>
+                    <h4>Prendre rendez-vous avec le Dr. Kerdali</h4>
+                    <p>Pour prendre rendez-vous avec le Dr. Nawel Kerdali, veuillez cliquer sur le lien suivant :</p>
+                    <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank">Prendre rendez-vous</a>
+                    <p>Au sein d'Ophtao le Docteur Kerdali vous reçoit le lundi après-midi de 12h30 à 16h15. Elle pratique les injections intravitréennes à <a href="https://www.google.com/maps/dir/60+Rue+Hoche,+Houilles/21+Rue+de+Sartrouville,+95870+Bezons/@48.9288295,2.1770471,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47e663f16541f7af:0xccff01f48236319d!2m2!1d2.184955!2d48.9251973!1m5!1m1!1s0x47e66404ba09c175:0x5e25e212146766d1!2m2!1d2.2041897!2d48.9337577!3e3?entry=ttu" target="_blank">la clinique du Plateau de Bezons</a> où elle opère également en chirurgie.</p>
+                </div>
+                <img src="1.png" alt="Dr. Nawel Kerdali" class="profile-pic">
+            </div>
+        </section>
+        <section id="orthoptistes" class="staff">
+            <h2>Nos orthoptistes</h2>
+            <div class="staff-member">
+                <div class="text-content">
+                    <h3>Mme. Nathalie Thay</h3>
+                    <p>Certificat de capacité d'orthoptiste, Université Paris VI, obtenu en 2007.</p>
+                    <p>A travaillé à l'Iinstitut du Glaucome de 2007 à 2017.</p>
+                    <p>En parallèle, se spécialise en imagerie rétinienne durant 15 ans auprès du Pr Salomon Yves Cohen.</p>
+                    <p>Aujourd'hui, se diversie avec la contactologie au sein du cabinet.</p>
+                </div>
+                <img src="path_to_image.jpg" alt="Mme. Nathalie Thay" class="profile-pic">
+            </div>
+            <div class="staff-member">
+                <div class="text-content">
+                    <h3>M. Pierre Henri Feret</h3>
+                    <p>Monsieur...</p>
+                </div>
+                <img src="path_to_image.jpg" alt="M. Pierre Henri Feret" class="profile-pic">
+            </div>
+        </section>
+        <section id="secretaires" class="staff">
+            <h2>Nos secrétaires</h2>
+            <div class="staff-member">
+                <div class="text-content">
+                    <h3>Mme. Carole</h3>
+                    <p>On ne soulignera jamais assez le rôle essentiel de la secrétaire dans un cabinet d'ophtalmologie. Véritable assistante, ses fonctions dépassent souvent le simple travail de secrétariat, aidant l'ophtalmologiste dans la bonne gestion de son outil de travail, dans ses tâches administratives et relationnelles, et étant en première ligne pour la bonne image du cabinet. La secrétaire médicale participe et contribue au bon fonctionnement du cabinet médical. Elle aide l'ophtalmologiste pour la gestion, les tâches administratives et relationnelles.</p>
+                </div>
+                <img src="path_to_image.jpg" alt="Mme. Carole" class="profile-pic">
+            </div>
+            <div class="staff-member">
+                <div class="text-content">
+                    <h3>Mme. Nadej</h3>
+                    <p>On ne soulignera jamais assez le rôle essentiel de la secrétaire dans un cabinet d'ophtalmologie. Véritable assistante, ses fonctions dépassent souvent le simple travail de secrétariat, aidant l'ophtalmologiste dans la bonne gestion de son outil de travail, dans ses tâches administratives et relationnelles, et étant en première ligne pour la bonne image du cabinet. La secrétaire médicale participe et contribue au bon fonctionnement du cabinet médical. Elle aide l'ophtalmologiste pour la gestion, les tâches administratives et relationnelles.</p>
+                </div>
+                <img src="path_to_image.jpg" alt="Mme. Nadej" class="profile-pic">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Cabinet Médical d'Ophtalmologie. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <link rel="icon" href="image.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon">
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #003366;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .booking-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .booking-link:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DMLA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reasons-to-book-appointment">
+            <h2>Prise de rendez-vous</h2>
+            <p>Notre cabinet médical est là pour vous offrir des soins complets et personnalisés, quelle que soit votre raison de consulter.</p>
+            <p>Pour prendre rendez-vous, vous avez deux options :</p>
+            <ul>
+                <li>Appeler le numéro de téléphone suivant : <a href="tel:+33139139191">01 39 13 91 91</a></li>
+                <li>Ou bien, cliquer sur le lien ci-dessous pour prendre rendez-vous en ligne :</li>
+            </ul>
+            <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank" class="booking-link">Prendre rendez-vous en ligne</a>
+        </section>
+
+        <section id="description">
+            <h2>Description de la DMLA</h2>
+            <p>La Dégénérescence Maculaire Liée à l'Age (DMLA) est une maladie dégénérative de la macula qui survient chez les personnes âgées et aboutit à une perte de la vision centrale. Le reste du champ visuel est préservé.</p>
+            <p>Il en existe deux formes principales : la DMLA « sèche » qui évolue lentement et pour laquelle il n'y a pas de traitement très efficace ; et la DMLA « humide » pour laquelle il existe des traitements stabilisateurs tels que le laser ou les injections intra-vitréennes.</p>
+            <p>Le diagnostic repose sur l'examen du fond d'œil, l'angiofluorographie rétinienne et l'OCT. On peut aussi avoir recours à la rééducation de basse vision par l'orthoptiste.</p>
+        </section>
+
+        <section id="imagerie">
+            <h2>Suivi par imagerie</h2>
+            <p>Le suivi de la DMLA repose sur des techniques d'imagerie permettant de détecter et de suivre les modifications de la macula. Ces techniques sont essentielles pour évaluer l'efficacité des traitements et adapter la prise en charge de la maladie.</p>
+        </section>
+
+        <section id="oct">
+            <h2>La Tomographie en Cohérence Optique (OCT)</h2>
+            <p>La Tomographie en Cohérence Optique (OCT) est une technique d'imagerie non invasive qui fournit des images détaillées des différentes couches de la rétine. Elle est particulièrement utile pour détecter et suivre les modifications de la macula liées à la DMLA.</p>
+        </section>
+
+        <section id="oct-angiographie">
+            <h2>La Tomographie en Cohérence Optique Angiographie (OCT-A)</h2>
+            <p>L'OCT Angiographie est une extension de l'OCT qui permet de visualiser les vaisseaux sanguins de la rétine sans injection de colorant. Cette technique est utilisée pour détecter les néovaisseaux choroïdiens dans la DMLA humide, permettant ainsi une prise en charge précoce et efficace.</p>
+        </section>
+
+        <section id="ivt">
+            <h2>L'injection intravitréenne (IVT)</h2>
+            <p>L'injection intravitréenne (IVT) est un traitement utilisé principalement pour la DMLA humide. Elle consiste à injecter un médicament directement dans le vitré de l'œil pour réduire la formation de néovaisseaux et limiter les dommages à la macula. Ce traitement doit être répété régulièrement et son efficacité est surveillée par des examens OCT et OCT-A.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ophtao - Cabinet Médical d'Ophtalmologie</p>
+    </footer>
+</body>
+</html>

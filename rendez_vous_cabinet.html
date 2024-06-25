@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <link rel="icon" href="image.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon">
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #003366;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .booking-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .booking-link:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prise de rendez-vous</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reasons-to-book-appointment">
+            <h2>Les motifs de rendez-vous</h2>
+            <p>Un rendez-vous peut être demandé pour diverses raisons : que ce soit pour une consultation de routine, le suivi d'une condition médicale existante, des examens de dépistage, ou en vue d'une opération, ou parce que vous êtes adressé par un médecin.</p>
+            <p>Ce peut être également du fait de la survenue de signes oculaires qui vous semble constituer une urgence. Notre cabinet médical est là pour vous offrir des soins complets et personnalisés, quelle que soit votre raison de consulter</p>
+            <p>L'ensemble de l'équipe</p>
+            <p>Pour prendre rendez-vous, vous avez deux options :</p>
+            <ul>
+                <li>Appeler le numéro de téléphone suivant : <a href="tel:+33139139191">01 39 13 91 91</a></li>
+                <li>Ou bien, cliquer sur le lien ci-dessous pour prendre rendez-vous en ligne :</li>
+            </ul>
+            <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank" class="booking-link">Prendre rendez-vous en ligne</a>
+        </section>
+
+        <section id="new-appointment">
+            <h2>Nouveau rendez-vous</h2>
+            <p>Pour un patient qui n'a jamais consulté au cabinet auparavant. Pour assurer une prise en charge efficace et personnalisée, nous vous invitons à fournir les informations suivantes : le nom, le prénom, la date de naissance et le numéro de téléphone du patient. Ces détails nous permettent de créer un dossier patient complet et de vous contacter facilement pour toute communication ultérieure.</p>
+            <p>En plus des informations personnelles, veuillez nous indiquer le motif du rendez-vous. Par exemple, s'il s'agit d'une consultation pour un problème de santé spécifique, une demande de prescription médicale, ou simplement une visite de bienvenue pour établir une relation avec notre équipe médicale. Cette information nous aide à organiser les rendez-vous et à allouer le temps nécessaire pour chaque consultation, garantissant ainsi une expérience fluide et efficace pour nos patients.</p>
+        </section>
+
+        <section id="control-appointment">
+            <h2>Rendez-vous de contrôle</h2>
+            <p>Simple rendez-vous de contrôle, pour un patient qui a déjà consulté auparavant. Environ tous les 2-3 ans sauf indication contraire du médecin. S'il n'y a pas de changement (baisse d'acuité visuelle ou autres), ces rendez-vous permettent de surveiller l'évolution de votre santé oculaire et de détecter tout problème éventuel à un stade précoce. Ils offrent également l'occasion de discuter de tout changement dans votre santé ou dans vos besoins en matière de soins oculaires. Notre équipe médicale est là pour répondre à vos questions et vous fournir des soins optimaux pour maintenir votre vision à son meilleur niveau.</p>
+        </section>
+
+        <section id="diabetic-appointment">
+            <h2>Rendez-vous pour patient diabétique</h2>
+            <p>Il est souhaitable que les patients diabétiques consultent  tous les ans ou tous les deux ans suivant les cas pour un examen du fond d'œil. afin de déterminer s'il y a une rétinopathie diabétique ou non.</p>
+            <p>En cas de découverte d'une rétinopathie diabétique, la surveillance devra être encore plus rapprochée, et des traitements par laser, injections intra vitréennes voire chirurgie peuvent s'avérer nécessaire pour conserver une fonction visuelle convenable.
+            Un suivi régulier de votre glycémie et de votre tension artérielle avec votre médecin généraliste ou diabétologue vous permettra de limiter le risque d'évolution de la rétinopathie diabétique vers une forme grave.</p>
+        </section>
+
+        <section id="contact-lens-appointment">
+            <h2>Patient porteur de lentilles</h2>
+            <p>Si la demande de rendez-vous concerne un renouvellement d'ordonnance, veuillez apporter vos lentilles de contact actuelles et les boites ou les blisters les contenant  ou bien la prescription médicale antérieure . Cela nous permettra de vérifier nous assurer que vos lentilles sont adaptées à vos besoins actuels. Nous recommandons également aux porteurs de lentilles de suivre les conseils d'entretien et d'hygiène recommandés pour prévenir les infections oculaires et maintenir une vision claire et confortable.</p>
+            <p>La sécurité sociale ne prend en charge les lentilles de contact et leur prescription que dans certains cas.</p>
+        </section>
+
+        <section id="emergencies">
+            <h2>Urgences</h2>
+            <p>En cas de doute concernant la nécessité d'une consultation urgente, n'hésitez pas à contacter notre équipe médicale. Nous sommes là pour répondre à vos questions et vous guider vers la meilleure prise en charge possible. Nous comprenons l'importance d'une réponse rapide et efficace face à des situations médicales urgentes. Les signes tels que des traumatismes oculaires, une perte soudaine de vision, la présence de corps étrangers dans l'œil, des éclairs lumineux persistants, des taches noires soudaines dans le champ de vision ou une lentille déchirée nécessitent une attention immédiate. De même, si vous observez un voile opaque, des "mouches volantes", une vision double soudaine ou un œil rouge et douloureux, il est impératif de consulter rapidement, nous sommes là pour vous offrir une assistance médicale adaptée et rapide, et nos secrétaires sont formées pour vous donner un rendez-vous dans les meilleurs délais en fonction du degré d'urgence des signes que vous présentez.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ophtao - Cabinet Médical d'Ophtalmologie</p>
+    </footer>
+</body>
+</html>

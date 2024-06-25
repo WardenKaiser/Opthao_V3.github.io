@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophtao</title>
+    <link rel="icon" href="image.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon">
+    <title>Cabinet Médical d'Ophtalmologie</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #003366;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ul li img {
+            display: block;
+            max-width: 100px;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 50%;
+        }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+                .booking-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .booking-link:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .btn-urgence, .btn-doctolib {
+            display: block;
+            width: max-content;
+            margin: 0 10px;
+            padding: 10px 20px;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .btn-urgence {
+            background-color: #d9534f;
+        }
+        .btn-urgence:hover {
+            background-color: #c9302c;
+        }
+        .btn-doctolib {
+            background-color: #5cb85c;
+        }
+        .btn-doctolib:hover {
+            background-color: #4cae4c;
+        }
+        .welcome-content {
+            display: flex;
+            align-items: center;
+        }
+        .welcome-content img {
+            border-radius: 10px;
+            margin-right: 20px;
+            max-width: 200px;
+        }
+        .welcome-content p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plateau technique</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="btn-group">
+            <a href="https://www.doctolib.fr/ophtalmologue/houilles/olivier-megret/booking/motives?specialityId=4&telehealth=false&placeId=practice-7892&bookingFunnelSource=profile" target="_blank" class="btn-doctolib">Prendre RDV sur Doctolib</a>
+        </div>
+        <section id="materiel-courant">
+            <h2>Le matériel de consultation courante</h2>
+            <ul>
+                <li>
+                    <a href="Retinographes.html">Rétinographes</a>
+                    <img src="20220629_131129.png" alt="Rétinographes" class="profile-photo">
+                </li>
+                <li>
+                    <a href="Materiel_specifique_examen_pédiatrique.html">Matériel spécifique d'examen pédiatrique</a>
+                    <img src="slide-5ae03f4f10ce2.png" alt="Matériel spécifique d'examen pédiatrique" class="profile-photo">
+                </li>
+            </ul>
+        </section>
+
+        <section id="explorations-avancees">
+            <h2>Le matériel d'explorations plus avancées</h2>
+            <ul>
+                <li>
+                    <a href="Tomographe_en_coherence_optique_avec_angiographie_OCT.html">Tomographe en cohérence optique avec angiographie OCT</a>
+                    <img src="image1762.png" alt="Tomographe en cohérence optique avec angiographie OCT" class="profile-photo">
+                </li>
+
+                <li>
+                    <a href="Topographe_corneen.html">Topographe cornéen</a>
+                    <img src="IMG20240617150613.jpg" alt="Topographe cornéen" class="profile-photo">
+                </li>
+                <li>
+                    <a href="Biometres.html">Biomètres</a>
+                    <img src="f5d98d80-5757-48f0-964a-5118453fff0b.png" alt="Biomètres" class="profile-photo">
+                </li>
+            </ul>
+        </section>
+
+        <section id="lasers">
+            <h2>Les lasers</h2>
+            <ul>
+                <li>
+                    <a href="Laser_trabeculoplastie_selective.html">Lasers pour traitement du glaucome par trabéculoplastie sélective</a>
+                    <img src="IMG20240617145201.jpg" alt="Lasers pour traitement du glaucome par trabéculoplastie sélective" class="profile-photo">
+                </li>
+                <li>
+                    <a href="Laser_retine.html">Laser pour la rétine (diabète, déchirures de la rétine, néovaisseaux...)</a>
+                    <img src="IMG20240617145150.jpg" alt="Laser pour la rétine" class="profile-photo">
+                </li>
+                <li>
+                    <a href="Laser_cataractes_secondaires.html">Laser pour traiter les cataractes secondaires, et dans certains cas de glaucome (iridotomies)</a>
+                    <img src="IMG20240617145150.jpg" alt="Laser pour traiter les cataractes secondaires" class="profile-photo">
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ophtao - Cabinet Médical d'Ophtalmologie</p>
+    </footer>
+</body>
+</html>
