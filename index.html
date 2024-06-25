@@ -77,7 +77,7 @@
 
         .btn-group {
             position: absolute;
-            bottom: 20vh; /* Descend les boutons un peu plus bas */
+            bottom: 20vh;
             left: 10vh;
             display: flex;
             flex-direction: column;
@@ -150,6 +150,17 @@
 
         #plateau_V2 {
             background-image: url('plateau_V2.jpg');
+        }
+
+        /* Positioning buttons in the bottom-right of their respective sections */
+        #equipe .btn-bottom-right,
+        #consultation .btn-bottom-right,
+        #pathologies .btn-bottom-right,
+        #correction .btn-bottom-right,
+        #visuels .btn-bottom-right {
+            position: absolute;
+            bottom: 5%;
+            right: 1%;
         }
     </style>
 </head>
